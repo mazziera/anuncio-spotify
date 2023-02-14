@@ -48,10 +48,12 @@ body{
    border-top-left-radius: 520px; 
    border-bottom-right-radius: 20px;
    border-bottom-left-radius: 20px;
+   transition: 0.5s ease-in-out;
 }
 
 .container .imagem-anuncio img:hover{
     opacity: 50%;
+    
 }
 
 
@@ -75,6 +77,10 @@ body{
     color: var(--cor-link);
     font-weight: 500;
     font-size: 25px;
+}
+
+.container .aside .link-spotify:hover{
+    color: #1DA94E;
 }
 
 .container .aside .texto-aside{
